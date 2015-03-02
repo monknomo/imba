@@ -1,0 +1,27 @@
+.imbaFailure {
+    background-color: red;
+}
+.imbaSuccess {
+    background-color: green;
+}
+#imbaJenkinsBuildStatus {
+    min-height: 5em;
+}
+#imbaJenkinsBuildStatusBall {
+    height:5em;
+    width:5em;
+    max-width:50%;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    float:left;
+    box-shadow:0em 0em 0em 0em #000, 0em 0em 2.5em inset;
+    -moz-box-shadow:0em 0em 0em 0em #000, 0em 0em 2.5em inset;
+    -webkit-box-shadow:0em 0em 0em 0em #000, 0em 0em 2.5em inset;
+}
+#imbaJenkinsBuildStatusMessages {
+    height:100%;
+    max-width:50%;
+    float:left;
+    padding-left:1em;
+}
